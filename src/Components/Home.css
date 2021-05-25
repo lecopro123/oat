@@ -1,0 +1,62 @@
+.containerH {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: white;
+    z-index: 9999999999;
+  }
+.cardH{
+    
+    box-shadow:  0 0 5px 2px rgba(0,0,0,0.4);
+  transition: 0.3s;
+    position: fixed;
+    background-color: white;
+    width: 90vw;
+    max-width: 600px;
+    height: 500px;
+    max-height: 600px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) ;
+}
+.pos{
+    top: 50%;
+    left: 50%;
+    transform: translate(61%, 65%) ;
+}
+.dish {
+    border: 0px;
+    font-size: 18px;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-collapse: collapse;
+    border: 3px solid #ddd;
+    width: max-content;
+    overflow: auto;
+  }
+  
+  .dish td, .dish th {
+    border-bottom: 2px solid black;
+    padding: 28px;
+    margin: 10px;
+  }
+  
+  /*.dish tr:nth-child(even){background-color: #f2f2f2;}*/
+  
+  .dish tr:hover {background-color: black;color: white;}
+  
+  .dish th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+  }
+
+  .card-contentsH{
+    display: flex;
+    /*align-items: center;*/
+    justify-content: center;
+    row-gap: 1rem;
+    column-gap: 1.5rem;
+}
